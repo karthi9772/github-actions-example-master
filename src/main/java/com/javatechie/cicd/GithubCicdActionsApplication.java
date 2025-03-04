@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to javatechie !";
+		return "Hello World From Docker";
 	}
 
 //	echo "# github-actions-example" >> README.md
